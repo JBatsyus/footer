@@ -1,0 +1,49 @@
+footer.footer-wrap
+  .container
+    .footer-top
+      a(href="javascript:void(0);").footer-top__logo
+          img(src='./img/big_logo.svg' alt='logo')
+      ul.footer-top__list
+        each val in ['Акции','Каталог','Сервис','о нас','Оплата','Доставка', 'Контакты']
+          li.footer-list__item
+            a(href="javascript:void(0);").footer-list__link=val
+      a(href="javascript:void(0);").button-up
+        img(src="./img/btn_up.svg", alt="")
+    .footer-bottom
+      .footer-bottom__left
+        .footer-info
+          .notice
+            a(href="javascript:void(0);").notice__link Политика конфиденциальности
+            a(href="javascript:void(0);").notice__link Обработка персональных данных
+          .callback
+            .opacity-txt Остались вопросы?
+            a(href="javascript:void(0);").btn.btn-red Заказать звонок
+          .footer_copyright.desc-block © 2024 Все права защищены в соответствии с законодательством РФ
+        .footer-menu
+          ul.footer-menu__list
+            each val in ['Каталог','Мотоциклы','Лодочные моторы','Квадроциклы','Мотовездеходы','Гидроциклы', 'Снегоходы','Катера','Силовая техника','С пробегом']
+              li.footer-menu__item
+                a(href="javascript:void(0);").footer-menu__link=val
+        .footer-menu
+            ul.footer-menu__list
+              each val in ['Сервис','О компании','Оплата','Доставка','Контакты']
+                li.footer-menu__item
+                  a(href="javascript:void(0);").footer-menu__link.bold-item=val
+      .footer-bottom__right
+        .contact-email
+            .opacity-txt СЛУЖБА КЛИЕНТСКОЙ ПОДДЕРЖКИ
+            a(href="mail:info@supermarine.ru") info@supermarine.ru
+        .contact-tel
+            .opacity-txt Информационная линия
+            a(href="tel: javascript:void(0);") +7 (495) 740 55 11
+            a(href="tel: javascript:void(0);") +7 (495) 740 55 21
+        .contact-social
+            .opacity-txt Социальные сети
+            .social-icon__wrap
+              a(href="javascript:void(0);").social__icon
+                  img(src='./img/vk_footer.svg' alt='vk')
+              a(href="javascript:void(0);").social__icon
+                  img(src='./img/youtube_footer.svg' alt='youtube')
+              a(href="javascript:void(0);").social__icon
+                  img(src='./img/tg_footer.svg' alt='tg')
+        .footer_copyright.mob-block © 2024 Все права защищены в соответствии с законодательством РФ
