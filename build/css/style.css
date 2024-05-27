@@ -223,6 +223,8 @@ html {
   background: var(--color-white);
 }
 
+/*--------------footer start-------------*/
+
 .footer-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -440,6 +442,8 @@ html {
           justify-content: space-between;
   width: 132px;
 }
+
+/*--------------footer end-------------*/
 
 @media (min-width: 576px) {
   .container {
